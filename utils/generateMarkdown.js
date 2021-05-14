@@ -21,8 +21,12 @@ function generateMarkdown(data) {
 
 ${data.description}
 
-##Table of Contents (Optional)
+## Table of Contents (Optional)
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
 ## Installation
 ${data.installation}
@@ -32,20 +36,21 @@ ${data.usage}
 
 ## Credits
 ${data.credits}
-##License
+## License
 ${renderLicenseLink(data.license)}
 
 ## Tests
 ${data.tests}
 
 
-##Questions
+## Questions
 Please contact me at ${data.questions} if you have any questions about my project.
-Also please visit my GitHub to see more projects i have worked on at ${data.github}.
+Also please visit my GitHub to see more projects i have worked on at [github](https://github.com/${data.github}).
 
 Optional
 ## Badges
 
+![shields io badge](https://img.shields.io/badge/${data.credits}-100%25-green)
 ## Features
 
 ## How to Contribute
