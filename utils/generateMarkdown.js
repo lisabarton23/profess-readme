@@ -45,7 +45,7 @@ ${data.tests}
 
 ## Questions
 Please contact me at ${data.questions} if you have any questions about my project.
-Also please visit my GitHub to see more projects i have worked on at [github](https://github.com/${data.github}).
+Also please visit [github](https://github.com/${data.github}) to see more projects I have worked on.
 
 Optional
 ## Badges
